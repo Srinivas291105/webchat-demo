@@ -1,5 +1,5 @@
 .logo{
-color:#DFD0B8;
+color:#FF9C50;
 font-family:sans-serif;
 }
 .headforacc
@@ -12,34 +12,19 @@ font-family:sans-serif;
 .notify{
     font-family:sans-serif;
 }
-.postarr{
-    font-family: sans-serif;
-    font-size: small;
-}
+
 .navbut{
-    margin: 5px;
-    border:none;
-    height:40px;
-    padding:10px;
-    border-radius: 6px;
-    background-color: 	#607B8F;
-    color:#F7E396;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-}
-.logbut{
-    background-color:#25343F ;
-    color: #FF9B51;
-    border-radius: 6px;
-    margin:2px;
-    padding:4px;
-    font-weight: bold;
-}
-p{
-    color:rgb(225, 225, 65);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: small;
-}
+    background-color:#20313D;
+    color:#FF9C50;
+    font-size: 80%;
+    border-radius:6px;
+    border:1;
+    padding-left:12px;
+    padding-right:12px;
+    padding-top: 8px;
+    padding-bottom:10px;
+    border-color: #EBF0EF;
+} 
 .logdiv2{
      display: flex;
     justify-content: center;
@@ -48,14 +33,29 @@ p{
     z-index: 1000;
 }
 .logdiv{
-    background-color: #FFF8DE;
-    width: auto;
-    border-radius: 10px;
-    font-family:sans-serif;
-    margin:10px;
+    background-color: #C0CAD2;
+    height:auto;
+    width:95%;
     display: flex;
-    justify-content: center;
-    box-shadow: #181716;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:1%;
+    align-items: center;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 6px;
+    position: sticky;
+    top:0;
+    z-index: 1000;
+    margin-top: 6%;
+
+}
+p{
+    color:rgb(225, 225, 65);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
 }
 .sign_in_arr{
     border-radius: 10px;
@@ -76,6 +76,14 @@ p{
     font-family: sans-serif;
     display: flex;
     justify-content: center;
+}
+.logbut{
+    background-color:#25343F ;
+    color: #FF9B51;
+    border-radius: 6px;
+    margin:2px;
+    padding:4px;
+    font-weight: bold;
 }
 .accstatus{
     display:flex;
@@ -111,4 +119,38 @@ input[type="date"]{
 }
 label{
     font-size:larger;
+}
+.people_list
+{
+    background-color:#EBF0EF;
+    height: auto;
+    width:90%;
+    border-radius: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content:space-between;
+    gap: 2%;
+}
+img
+{
+    padding: 0%;
+    border-radius: 100px;
+    height:50px;
+    width:50px;
+}
+.namelastmsg{
+    background-color: #20313D;
+    border-radius: 10px;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    padding-top:10;
+    gap:10px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    color: #FF9C50;
+}
+.dif{
+    padding:0%;
+    font-size: small;    
 }
