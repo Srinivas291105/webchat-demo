@@ -1,0 +1,114 @@
+.logo{
+color:#DFD0B8;
+font-family:sans-serif;
+}
+.headforacc
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    color:#FF9B51;
+}
+.notify{
+    font-family:sans-serif;
+}
+.postarr{
+    font-family: sans-serif;
+    font-size: small;
+}
+.navbut{
+    margin: 5px;
+    border:none;
+    height:40px;
+    padding:10px;
+    border-radius: 6px;
+    background-color: 	#607B8F;
+    color:#F7E396;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.logbut{
+    background-color:#25343F ;
+    color: #FF9B51;
+    border-radius: 6px;
+    margin:2px;
+    padding:4px;
+    font-weight: bold;
+}
+p{
+    color:rgb(225, 225, 65);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+}
+.logdiv2{
+     display: flex;
+    justify-content: center;
+    position: sticky;
+    top:0%;
+    z-index: 1000;
+}
+.logdiv{
+    background-color: #FFF8DE;
+    width: auto;
+    border-radius: 10px;
+    font-family:sans-serif;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: #181716;
+}
+.sign_in_arr{
+    border-radius: 10px;
+    margin:20px;
+    padding: 10px;
+    height: auto;
+    width:420px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.login_area{
+    border-radius: 10px;
+    margin:20px;
+    padding: 10px;
+    height: auto;
+    width:420px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.accstatus{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="text"]{
+    font-family: sans-serif;
+    font-size: large;
+    border-radius: 5px;
+    margin-top:10px;
+    padding-top: 5px;padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #DFD0B8;
+    color:#222831;
+}
+input[type="date"]{
+    font-family: sans-serif;
+    font-size: large;
+    border-radius: 5px;
+    margin-top:10px;
+    padding-top: 5px;padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #DFD0B8;
+    color:#222831;
+}
+label{
+    font-size:larger;
+}
