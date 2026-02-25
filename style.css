@@ -59,7 +59,7 @@ body{
 }
 .logdiv{
     height:auto;
-    width:300px;
+    width:340px;
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
@@ -144,8 +144,8 @@ label{
     background-color: #222222;
     margin-bottom: 1%;
     height: auto;
-    width:260px;
-    border-radius: 10px;
+    width:320px;
+    border-radius: 14px;
     padding: 4px;
     display: flex;
     justify-content:center;
@@ -183,10 +183,10 @@ img
 .chatarr
 {
     background-color: #FA8112;
-    width:280px;
+    width:340px;
     padding-top: 5px;
-    padding-bottom:5px;
-    border-radius: 16px;
+    padding-bottom:3px;
+    border-radius: 14px;
 }
 .chatarr2{
     display: flex;
