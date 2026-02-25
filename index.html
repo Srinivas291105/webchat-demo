@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>FriendlyChat</title>
+        <title>FriendlyChat Login</title>
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -12,18 +12,26 @@
         </div></div>
         <p align="center" class="qu">FriendlyChat was created by sss in 2026<br></p>
         <nav class="logdiv2"><nav class="logdiv">
-            <a href=""><button class="navbut">Home</button></a>
+            <a href="index.html"><button class="navbut">Home</button></a>
             <a href=""><button class="navbut">Explore</button></a>
             <a href=""><button class="navbut">Settings</button></a>
             <a href=""><button class="navbut">Messages</button></a>
             <a href="login.html"><button class="navbut">Account</button></a>
         </nav></nav>
-        <br>
-        <div class="chatarr2">
-            <div class="chatarr">
-                <div id="chats"></div>
-                <script src="logic.js"> </script>
-            </div>
+        <div class="accstatus">
+        <div class="login_area">
+        <form>
+            <h2 class="headforacc">Login</h2>
+            <label for="mail_phn">Mail/Mobile</label><br>
+            <input type="text" id="mail_phn"><br><br>
+            <label for="pass">Password</label><br>
+            <input type="text" id="pass"><br><br>
+            <a><button class="logbut">Login</button></a>
+            <a><button class="logbut">Forgot password</button></a>
+        </form>
+        </div>
+        <h6 class="notify">Don't have an account? Create a new account</h6>
+        <a href="signin.html" ><button class="logbut">Create New Account</button></a>
         </div>
     </body>
 </html>
