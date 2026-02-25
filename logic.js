@@ -1,5 +1,5 @@
 const container = document.getElementById('chats');
-let fruits = ["Bruce", "Peter", "Iron Man","Black Widow","Barry Allen"];
+let fruits = ["Sai Srinivas sarikonda", "Peter", "Iron Man","Black Widow","Barry Allen"];
 let logos = ["logos/amzlogo.jpeg","logos/goologo.png","logos/jaglogo.png","logos/jplogo.png","logos/netlogo.jpg"];
 for (let i = 0; i < 5; i++) {
     
@@ -16,8 +16,9 @@ for (let i = 0; i < 5; i++) {
                 <img src="${logos[i]}">
             </div>
             <div class="namelastmsg">
-                <p class="cn">${fruits[i]}<p>
-                <p class="cn">time here</p><p class="cn">"Hello How are you doing"</p>
+                <p class="pername">${fruits[i]}<p>
+                <p class="tme">time here</p>
+                <p class="lsmsg">"Hello How are you doing"</p>
             </div>
         </div>
         </div>
