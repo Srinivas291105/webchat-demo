@@ -1,4 +1,5 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
     color:#f6f2e9
 }
 .logo{
@@ -10,7 +11,6 @@ body{
     padding-right: 15px;
     height: auto;
     border-radius: 5px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .logof{color:#f6f2e9;}
 .logol{color:#8f9e7a;}
@@ -20,19 +20,15 @@ body{
 }
 .qu{
     color: 	#ffc700;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: small;
 }
 
 .headforacc
 {
-    font-family: sans-serif;
+
     font-weight: bold;
     font-size: xx-large;
     color:#FF9B51;
-}
-.notify{
-    font-family:sans-serif;
 }
 
 .navbut{
@@ -81,7 +77,6 @@ body{
     padding: 10px;
     height: auto;
     width:420px;
-    font-family: sans-serif;
     display: flex;
     justify-content: center;
 }
@@ -91,7 +86,6 @@ body{
     padding: 10px;
     height: auto;
     width:420px;
-    font-family: sans-serif;
     display: flex;
     justify-content: center;
 }
@@ -110,7 +104,6 @@ body{
     align-items: center;
 }
 input[type="text"]{
-    font-family: sans-serif;
     font-size: large;
     border-radius: 5px;
     margin-top:10px;
@@ -123,7 +116,6 @@ input[type="text"]{
     color:#222831;
 }
 input[type="date"]{
-    font-family: sans-serif;
     font-size: large;
     border-radius: 5px;
     margin-top:10px;
@@ -172,10 +164,6 @@ label{
 {
     display: flex;
     justify-content: center;
-}
-.pername,.tme,.lsmsg
-{
-    font-family: Arial, Helvetica, sans-serif;
 }
 .pername{font-size: small;color:#2a2a2a;width: 40%;display: flex;flex-wrap: wrap;}
 .tme{font-size:medium;color:#d72638;font-size:small;}
