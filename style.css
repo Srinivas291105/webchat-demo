@@ -5,6 +5,7 @@ body{
 .logo{
     display: flex;
     justify-content: center;
+    gap:10px;
 }
 .logof{color:#f6f2e9;}
 .logol{color:#8f9e7a;}
@@ -176,7 +177,7 @@ label{
     justify-content: center;
 }
 
-button,.people_list:hover {
+button,.people_list,.lsout2:hover {
   cursor: pointer;
 }
 .camico{    width:150px;}
@@ -194,7 +195,7 @@ button,.people_list:hover {
 input.querbox2[type="text"]
 {
     color:#f6f2e9;
-    background-color: #8f9e7a;
+    background-color: black;
     height: 65%;
     width:300px;
     border: 0px;
@@ -202,3 +203,46 @@ input.querbox2[type="text"]
 }
 .querbox3{display: flex;justify-content: center ;height: 8%;}
 .querbut{background-color: #000000;border: 0px;}
+.setaccarr
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color:#EAE0CF;
+    background-color: #547792;
+    height:100%;
+    width:95%;
+    display: flex;
+    justify-content: center;
+    border-radius: 14px;
+    padding: 2px;
+}
+.setaccpfp
+{
+    width:70px;
+    height:100%;
+}
+.accpfp{height:100%;width:100%;border-radius: 100px;}
+.setaccname{
+    width:85%;
+    display: flex;
+    justify-content: center;
+}
+.setacc{display: flex;justify-content: center;height:10%;}
+.settingspage{background-color:#213448;}
+.lsout
+{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    height: 10%;
+    border-radius: 14px;
+    background-color: #547792;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    padding: 2px;
+}
+.lsout2
+{
+    display: flex;
+    justify-content: center;
+}
