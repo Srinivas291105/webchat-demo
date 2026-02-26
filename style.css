@@ -5,16 +5,11 @@ body{
 .logo{
     display: flex;
     justify-content: center;
-    gap:5px;
-    width:auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    height: auto;
-    border-radius: 5px;
 }
 .logof{color:#f6f2e9;}
 .logol{color:#8f9e7a;}
 .logoplcmnt{
+    height: 60px;
     display: flex;
     justify-content: center;
 }
@@ -32,8 +27,8 @@ body{
 }
 
 .navbut{
-    background-color:#f5f3ee;
-    color:#d72638;
+    background-color:#ffc800;
+    color:black;
     font-size: 80%;
     border-radius:6px;
     border:1;
@@ -41,7 +36,7 @@ body{
     padding-right:12px;
     padding-top: 8px;
     padding-bottom:10px;
-    box-shadow:0 0 8px #BFC9D1 ;
+    box-shadow:0 0 8px #fff0bb;
     border:0px;
     margin-bottom: 10%;
 } 
