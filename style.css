@@ -192,3 +192,7 @@ img
     display: flex;
     justify-content: center;
 }
+
+button:hover {
+  cursor: pointer;
+}
