@@ -152,7 +152,7 @@ label{
     height: 60px;
     gap:1%;
 }
-img
+.pfpicons
 {
     border-radius: 100%;
     height: 100%;
@@ -193,6 +193,29 @@ img
     justify-content: center;
 }
 
-button:hover {
+button,.people_list:hover {
   cursor: pointer;
 }
+.camico{    width:150px;}
+.camico2{   display: flex;justify-content: center;}
+.querbox
+{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 300px;
+    padding-right: 2%;
+    padding-left: 2%;
+    gap:10px;
+}
+input.querbox2[type="text"]
+{
+    color:#f6f2e9;
+    background-color: #8f9e7a;
+    height: 65%;
+    width:300px;
+    border: 0px;
+    box-shadow:0 0 8px #e3f8c6 ;
+}
+.querbox3{display: flex;justify-content: center ;height: 8%;}
+.querbut{background-color: #000000;border: 0px;}
