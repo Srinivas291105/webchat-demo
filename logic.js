@@ -1,5 +1,5 @@
 const container = document.getElementById('chats');
-let fruits = ["Sai Srinivas sarikonda", "Peter", "Iron Man","Black Widow","Barry Allen"];
+let fruits = ["Sai Srinivas sarikonda", "feeds", "Iron Man","Black Widow","Barry Allen"];
 let logos = ["logos/amzlogo.jpeg","logos/goologo.png","logos/jaglogo.png","logos/jplogo.png","logos/netlogo.jpg"];
 for (let i = 0; i < 5; i++) {
     
