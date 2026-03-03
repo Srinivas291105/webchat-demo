@@ -1,25 +1,27 @@
-body{color: azure;
-  background-color: #111418;
-font-family:Arial, Helvetica, sans-serif;}
+body{color: #2C2C2C;
+    background-image: linear-gradient(to right, #8399a2, #eef2f3);
+    font-family:Arial, Helvetica, sans-serif;}
 .logobox
 {display: flex;
   width: fit-content;
   gap: 3px;
 color: #8f9e7a;}
 .menu{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  gap:5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-radius:12px;
-  margin-bottom: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom:5px;
+    border-radius:12px;
+    margin-bottom: 18px;
 }
 .menopt{text-decoration: none;
-  color:white;
-  background-color:#292e38;
+  color:#cad2c5;
+  background-color:#2f3e46;
   font-size: medium;
   padding: 12px;
   border-radius: 10px;
@@ -27,7 +29,6 @@ color: #8f9e7a;}
 .items{
     display: flex;
     flex-wrap: wrap;
-    position: sticky;
     gap :4px;
 }
 
@@ -41,20 +42,24 @@ color: #8f9e7a;}
 
 
 .sign_in_arr{
+    background: linear-gradient(90deg, #08203E, #557C93);
+    color: #C3C7D1;
     border-radius: 10px;
     margin:20px;
     padding: 10px;
     height: auto;
-    width:420px;
+    width:320px;
     display: flex;
     justify-content: center;
 }
 .login_area{
+    background: linear-gradient(90deg, #08203E, #557C93);
+    color: #C3C7D1;
     border-radius: 10px;
     margin:20px;
     padding: 10px;
     height: auto;
-    width:420px;
+    width:320px;
     display: flex;
     justify-content: center;
 }
@@ -80,9 +85,11 @@ input[type="text"]{
     padding-left: 10px;
     padding-top: 5px;
     display: inline-block;
-    border: 1px solid #ccc;
-    background-color: #DFD0B8;
-    color:#222831;
+    background-color:#D9EAFD;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color:#31363D;
 }
 input[type="date"]{
     font-size: large;
@@ -92,8 +99,8 @@ input[type="date"]{
     padding-left: 10px;
     padding-top: 5px;
     display: inline-block;
-    border: 1px solid #ccc;
-    background-color: #DFD0B8;
+    border: 0px solid #ccc;
+    background-color: #D9EAFD;
     color:#222831;
 }
 label{
@@ -102,10 +109,11 @@ label{
 .people_list
 {
     background-color: #1f2127;
+    color: white;
     margin-top: 1%;
     margin-bottom: 1%;
     height: auto;
-    width:390px;
+    width:95%;
     border-radius: 14px;
     padding: 4px;
     display: flex;
@@ -168,14 +176,14 @@ button,.people_list,.lsout2:hover {
 input.querbox2[type="text"]
 {
     color:#f6f2e9;
-    background-color: black;
+    background-color:#F8FAFC;
     height: 65%;
     width:300px;
     border: 0px;
     box-shadow:0 0 8px #292e38 ;
 }
 .querbox3{display: flex;justify-content: center ;height: 8%;}
-.querbut{background-color:#111418;border: 0px;}
+.querbut{border: 0px;}
 .setaccarr
 {
     margin-top: 2%;
