@@ -4,11 +4,17 @@
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body>
+        <body>
         <nav class="menu">
-            <div class="logobox">
-                <h2 style="color: white;">Friendly</h2>
-                <h2>Chat</h2>
+            <div class="logobox" role="button" tabindex="0" onclick="window.location.href='index.html'">
+                <h2>Friendly</h2>
+                <h2 style="color: #740A03;">Chat</h2>
+            </div>
+            <div class="searchgen">
+                <form action="index.html" method="post" class="searchgen2">
+                    <input type="text" id="gensearch" class="gensearch" placeholder="Search Profiles">
+                    <button type="submit" class="searchgenbut"><img src="images/query.png" style="height: 100%;"></button>
+                </form>
             </div>
             <div class="items">
                 <a href="index.html" class="menopt">Home</a>
@@ -24,7 +30,7 @@
             <label for="mail_phn">Mail/Mobile</label><br>
             <input type="text" id="mail_phn"><br><br>
             <label for="pass">Password</label><br>
-            <input type="text" id="pass"><br><br>
+            <input type="password" id="pass"><br><br>
             <a><button class="logbut">Login</button></a>
             <a><button class="logbut">Forgot password</button></a>
         </form>
