@@ -52,8 +52,8 @@ body{color: #2C2C2C;
     justify-content: center;
 }
 .login_area{
-    background: linear-gradient(90deg, #08203E, #557C93);
-    color: #C3C7D1;
+    background-color: #EBF0F5;
+    color: #31363D;
     border-radius: 10px;
     margin:20px;
     padding: 10px;
