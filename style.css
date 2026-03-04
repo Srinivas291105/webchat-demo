@@ -4,12 +4,11 @@ body{color: #2C2C2C;
 .logobox
 {display: flex;
   width: fit-content;
-  gap: 3px;
-color: #8f9e7a;}
+  gap: 3px;}
 .menu{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: baseline;
     flex-wrap: wrap;
     gap:5px;
     padding-left: 5px;
@@ -37,13 +36,13 @@ color: #8f9e7a;}
 
     font-weight: bold;
     font-size: xx-large;
-    color:#FF9B51;
+    color:#ff6a00;
 }
 
 
 .sign_in_arr{
-    background: linear-gradient(90deg, #08203E, #557C93);
-    color: #C3C7D1;
+    background-color: #EBF0F5;
+    color: #31363D;
     border-radius: 10px;
     margin:20px;
     padding: 10px;
@@ -77,6 +76,18 @@ color: #8f9e7a;}
     flex-direction: column;
     align-items: center;
 }
+input[type="password"]{
+    font-size: large;
+    border-radius: 5px;
+    margin-top:10px;
+    padding-top: 5px;padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    display: inline-block;
+    background-color:#C3C7D1;
+    border:0;
+    color:#31363D;
+}
 input[type="text"]{
     font-size: large;
     border-radius: 5px;
@@ -85,10 +96,8 @@ input[type="text"]{
     padding-left: 10px;
     padding-top: 5px;
     display: inline-block;
-    background-color:#D9EAFD;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
+    background-color:#C3C7D1;
+    border:0;
     color:#31363D;
 }
 input[type="date"]{
@@ -100,7 +109,7 @@ input[type="date"]{
     padding-top: 5px;
     display: inline-block;
     border: 0px solid #ccc;
-    background-color: #D9EAFD;
+    background-color: #C3C7D1;
     color:#222831;
 }
 label{
@@ -158,7 +167,7 @@ label{
     justify-content: center;
 }
 
-button,.people_list,.lsout2:hover {
+button,.people_list,.lsout2:hover,.logobox{
   cursor: pointer;
 }
 .camico{    width:150px;}
@@ -179,7 +188,7 @@ input.querbox2[type="text"]
     background-color:#F8FAFC;
     height: 65%;
     width:300px;
-    border: 0px;
+    border: 0;
     box-shadow:0 0 8px #292e38 ;
 }
 .querbox3{display: flex;justify-content: center ;height: 8%;}
@@ -225,4 +234,18 @@ input.querbox2[type="text"]
 {
     display: flex;
     justify-content: center;
+}
+.searchgenbut{width:40px;height: 35px;border: 0;background-color: transparent;}
+.searchgen2{display: flex;justify-content:baseline;width: 100%;align-items: center;height: 55px;}
+.searchgen{width:55%;}
+.gensearch
+{
+    border: 0;
+    width:80%;
+}
+input.gensearch[type="text"]{
+    height: 35px;
+    border-radius: 6px;
+    background-color: transparent;
+    color:#F0F0DB;
 }
