@@ -1,6 +1,9 @@
-body{color: #2C2C2C;
-    background-image: linear-gradient(to right, #8399a2, #eef2f3);
-    font-family:Arial, Helvetica, sans-serif;}
+body{color:#2e3440 ;
+    background-color:white;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+}
+.slf{color:#1e96fc}
 .logobox
 {display: flex;
   width: fit-content;
@@ -19,11 +22,11 @@ body{color: #2C2C2C;
     margin-bottom: 18px;
 }
 .menopt{text-decoration: none;
-  color:#cad2c5;
-  background-color:#2f3e46;
+  color:white;
+  background-color:#70a288;
   font-size: medium;
   padding: 12px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 .items{
     display: flex;
@@ -33,16 +36,14 @@ body{color: #2C2C2C;
 
 .headforacc
 {
-
     font-weight: bold;
     font-size: xx-large;
-    color:#ff6a00;
 }
 
 
 .sign_in_arr{
-    background-color: #EBF0F5;
-    color: #31363D;
+    background-color: #7F8CAA   ;
+    color: #fffaff;
     border-radius: 10px;
     margin:20px;
     padding: 10px;
@@ -52,8 +53,8 @@ body{color: #2C2C2C;
     justify-content: center;
 }
 .login_area{
-    background-color: #EBF0F5;
-    color: #31363D;
+    background-color: #B8CFCE;
+    color: black;
     border-radius: 10px;
     margin:20px;
     padding: 10px;
@@ -63,12 +64,14 @@ body{color: #2C2C2C;
     justify-content: center;
 }
 .logbut{
-    background-color:#25343F ;
-    color: #FF9B51;
+    background-color:#333446;
+    color: #EAEFEF;
     border-radius: 6px;
     margin:2px;
-    padding:4px;
+    padding:10px;
     font-weight: bold;
+    border-radius: 10px;
+    border:0;
 }
 .accstatus{
     display:flex;
@@ -84,9 +87,9 @@ input[type="password"]{
     padding-left: 10px;
     padding-top: 5px;
     display: inline-block;
-    background-color:#C3C7D1;
+    background-color:#333446;
     border:0;
-    color:#31363D;
+    color:white;
 }
 input[type="text"]{
     font-size: large;
@@ -96,9 +99,9 @@ input[type="text"]{
     padding-left: 10px;
     padding-top: 5px;
     display: inline-block;
-    background-color:#C3C7D1;
+    background-color:#333446;
     border:0;
-    color:#31363D;
+    color:white;
 }
 input[type="date"]{
     font-size: large;
@@ -109,8 +112,8 @@ input[type="date"]{
     padding-top: 5px;
     display: inline-block;
     border: 0px solid #ccc;
-    background-color: #C3C7D1;
-    color:#222831;
+    background-color: #333446;
+    color:white;
 }
 label{
     font-size:larger;
@@ -247,5 +250,6 @@ input.gensearch[type="text"]{
     height: 35px;
     border-radius: 6px;
     background-color: transparent;
-    color:#F0F0DB;
+    color:#323366;
+    border: 0;
 }
