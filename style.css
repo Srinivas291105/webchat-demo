@@ -216,18 +216,20 @@ messages
     flex-wrap: wrap;
     gap:40px;
     background-color: rgb(29, 28, 33);
-    width: 450px;
+    width: 100%;
+    min-width: 400px;
     padding: 10px;
     border-radius: 10px;
 }
 .cont{
     display: flex;
     justify-content: center;
+
 }
 .pername{
     font-weight: bolder;
     font-size: large;
 }
-.lsmsg{
-    max-width: 200px;
+.lsmsg,.pername{
+    max-width: 150px;
 }
