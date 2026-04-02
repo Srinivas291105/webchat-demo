@@ -203,39 +203,31 @@ input.gensearch[type="text"]{
 /* 
 messages
 */
-
-.peoplearea{
-    width: 250px;
-    height: 350px;
-}
 .pfpicons{
-    height: 350px;
-    width:250px;
+    height: 220px;
+    width:200px;
     border-radius: 10px;
 }
-.profileimg{
-    width:250px;
-    position: relative;
-
-}
-.profileimg::before {
-  content: "";
-  position: absolute; /* Positions the pseudo-element over the image */
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  /* Apply the gradient */
-  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
-  z-index: 1; /* Ensures the gradient is on top of the image */
-}
-.namelastmsg{
-    position: absolute;
-    bottom: 2px;
-    color: rgb(160, 193, 255);
-}
-.chatarr
+.profileimg
 {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:40px;
+    background-color: rgb(29, 28, 33);
+    width: 450px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cont{
+    display: flex;
     justify-content: center;
+}
+.pername{
+    font-weight: bolder;
+    font-size: large;
+}
+.lsmsg{
+    max-width: 200px;
 }

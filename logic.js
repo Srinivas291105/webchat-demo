@@ -1,5 +1,5 @@
 const container = document.getElementById('chats');
-let fruits = ["Sai Srinivas sarikonda", "feeds", "Iron Man","Black Widow","Barry Allen"];
+let fruits = ["Hamza ALi MaZarI", "Jameel Jamali", "Sp Aslam","Uzair","Iqbal isi"];
 let logos = ["logos/amzlogo.jpeg","logos/goologo.png","logos/jaglogo.png","logos/jplogo.png","logos/netlogo.jpg"];
 for (let i = 0; i < 5; i++) {
     
@@ -10,13 +10,12 @@ for (let i = 0; i < 5; i++) {
     
     // Insert your static content
     newDiv.innerHTML = `
-        
         <div class="people_list" role="button" tabindex="0" onclick="window.location.href='${fruits[i]}.html'">
             <div class="profileimg">
                 <img src="${logos[i]}" class="pfpicons">
                 <div class="namelastmsg">
                     <p class="pername">${fruits[i]}<p>
-                    <p class="lsmsg">"Hello How are you doing"</p>
+                    <p class="lsmsg">you : "Hello How are you doing and im hamza from baloch"</p>
                 </div>
             </div>
         </div>                                                          
